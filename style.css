@@ -5,7 +5,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  background-color: #fof8ff;
+  background-color: #f2f2f7;
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
   border: 2px solid black;
   padding: 15px;
   position: relative;
-  background-color: #e6f7ff;
+  background-color: White;
 }
 
 .title {
@@ -42,15 +42,15 @@ h1 {
 }
 
 .chicken {
-  background-color: #ffe6e6;
+  background-color: #ff6961;
 }
 
 .beef {
-  background-color: #ffe6cc;
+  background-color: #fdfd96;
 }
 
 .sushi {
-  background-color: #e6f2ff;
+  background-color: #ffb3ba;
 }
 
 p {
