@@ -24,7 +24,7 @@ h1 {
 }
 
 .box {
-  border: 2px solid black;   /* РАМКА */
+  border: 2px solid black;
   padding: 15px;
   position: relative;
   background-color: #f9f9f9;
@@ -37,7 +37,7 @@ h1 {
   padding: 5px 10px;
   color: white;
   font-weight: bold;
-  border: 1px solid black;  /* рамка вокруг ярлыка */
+  border: 1px solid black;
 }
 
 .chicken {
@@ -53,5 +53,21 @@ h1 {
 }
 
 p {
-  margin-top: 40px; /* чтобы текст не перекрывал заголовок */
+  margin-top: 40px;
+}
+
+/* --- Адаптивность --- */
+
+/* Планшеты (макс. ширина 992px) — 2 блока в строку */
+@media (max-width: 992px) {
+  .col {
+    flex: 0 0 48%;
+  }
+}
+
+/* Телефоны (макс. ширина 768px) — 1 блок в строку */
+@media (max-width: 768px) {
+  .col {
+    flex: 0 0 100%;
+  }
 }
