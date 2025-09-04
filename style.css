@@ -27,7 +27,7 @@ h1 {
   border: 2px solid black;
   padding: 15px;
   position: relative;
-  background-color: #f9f9f9;
+  background-color: #e6f7ff;
 }
 
 .title {
@@ -41,15 +41,15 @@ h1 {
 }
 
 .chicken {
-  background-color: #ff9999;
+  background-color: #ffe6e6;
 }
 
 .beef {
-  background-color: #cc0000;
+  background-color: #ffe6cc;
 }
 
 .sushi {
-  background-color: #ffcc66;
+  background-color: #e6f2ff;
 }
 
 p {
