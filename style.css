@@ -1,14 +1,42 @@
 body {
-  background-color: #f0f0f0;
   font-family: Arial, sans-serif;
+  margin: 20px;
 }
 
 h1 {
-  color: darkblue;
   text-align: center;
+  margin-bottom: 40px;
 }
 
-p {
-  color: green;
-  font-size: 18px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.box {
+  border: 2px solid #333;
+  padding: 15px;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.box h2 {
+  margin: 0 0 10px 0;
+  padding: 5px;
+  text-align: right;
+  color: white;
+}
+
+.chicken h2 {
+  background-color: #ff9999;
+}
+
+.beef h2 {
+  background-color: #cc0000;
+}
+
+.sushi h2 {
+  background-color: #ffcc66;
 }
