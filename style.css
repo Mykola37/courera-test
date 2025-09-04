@@ -5,7 +5,6 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
-  background-color: #f2f2f7; /* фон всей страницы */
 }
 
 h1 {
@@ -28,10 +27,9 @@ h1 {
   border: 2px solid black;
   padding: 15px;
   position: relative;
-  color: #000; /* текст внутри всегда чёрный для читаемости */
+  background-color: #f9f9f9;
 }
 
-/* Заголовки */
 .title {
   position: absolute;
   top: 0;
@@ -42,17 +40,16 @@ h1 {
   border: 1px solid black;
 }
 
-/* Цвета для блоков */
 .chicken {
-  background-color: #ffb3ba; /* розовый блок */
+  background-color: #ff9999;
 }
 
 .beef {
-  background-color: #ff6961; /* красный блок */
+  background-color: #cc0000;
 }
 
 .sushi {
-  background-color: #fdfd96; /* жёлтый блок */
+  background-color: #ffcc66;
 }
 
 p {
@@ -60,14 +57,18 @@ p {
 }
 
 /* --- Адаптивность --- */
+
+/* Планшеты (макс. ширина 992px) — 2 блока в строку */
 @media (max-width: 992px) {
   .col {
     flex: 0 0 48%;
   }
 }
 
+/* Телефоны (макс. ширина 768px) — 1 блок в строку */
 @media (max-width: 768px) {
   .col {
     flex: 0 0 100%;
   }
 }
+
