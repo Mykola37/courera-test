@@ -5,7 +5,7 @@
 body {
   font-family: 'Pacifico', cursive;
   margin: 20px;
-  background-color: #6b8e23; /* светло-серый фон всей страницы */
+  background-color: #6b8e23; 
 }
 
 h1 {
@@ -36,11 +36,10 @@ h1 {
 }
 
 .box p {
-  margin-top: 42px; /* отступ под ярлычок */
+  margin-top: 42px; 
   line-height: 1.5;
 }
 
-/* Заголовки внутри блоков */
 .title {
   position: absolute;
   top: 0;
@@ -53,20 +52,18 @@ h1 {
   background: rgba(255, 255, 255, 0.6);
 }
 
-/* Цвета для блоков */
 .box-chicken {
-  background-color: #ffe5e5; /* нежно-розовый */
+  background-color: #ffe5e5; 
 }
 
 .box-beef {
-  background-color: #e6ffe6; /* нежно-зелёный */
+  background-color: #e6ffe6; 
 }
 
 .box-sushi {
-  background-color: #e6f0ff; /* нежно-голубой */
+  background-color: #e6f0ff; 
 }
 
-/* --- Адаптивность --- */
 @media (max-width: 992px) {
   .col {
     flex: 0 0 48%;
