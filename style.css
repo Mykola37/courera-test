@@ -34,10 +34,10 @@ ol, li {
 }
 
 .col {
-  flex: 1;
+  flex: 1 1 100%;
   min-width: 260px;
 }
-.col.full {
+.col {
   flex: 1 1 100%;
 
 .box {
