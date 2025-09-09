@@ -59,7 +59,6 @@ ol, li {
 
 .box-sushi {
   background-color: #e6f0ff;
-  flex: 1 1 100%;
 }
 
 @media (max-width: 992px) {
