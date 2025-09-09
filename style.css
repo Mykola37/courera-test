@@ -59,14 +59,27 @@ ol, li {
   background-color: #e6f0ff;
 }
 
-@media (max-width: 992px) {
-  .col {
-    flex: 0 0 48%;
+@media (max-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 100%;
+  }
+  .col-md-12 {
+    float: left;
+    width: 100%;
   }
 }
 
-@media (max-width: 768px) {
-  .col {
-    flex: 0 0 100%;
+@media (max-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33,33%;
   }
 }
+@media (max-width: 767px) {
+  .col-cm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
