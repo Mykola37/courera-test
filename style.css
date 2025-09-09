@@ -34,11 +34,9 @@ ol, li {
 }
 
 .col {
-  flex: 1 1 100%;
+  flex: 1;
   min-width: 260px;
 }
-.col {
-  flex: 1 1 100%;
 
 .box {
   border: 2px solid #222;
